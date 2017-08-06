@@ -34,7 +34,7 @@ fs.readdir("./cmds/", (err, files) => {
 });
 
 bot.on("ready", () => {
-    bot.user.setGame("t?help | Incomplete");
+    bot.user.setGame("");
         console.log("I'm in - " + bot.guilds.size + " - servers");
         console.log(`New guild joined: ${bot.guilds.name} (id: ${bot.guilds.id}). This guild has ${bot.guilds.memberCount} members!`);
 });
